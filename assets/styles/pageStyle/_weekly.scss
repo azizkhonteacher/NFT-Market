@@ -1,0 +1,77 @@
+.weekly {
+  &-title {
+    @extend %sectionTitle;
+    text-transform: capitalize;
+  }
+  &-desc {
+    @extend %sectionSubtitle;
+    text-transform: capitalize;
+  }
+  &-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    padding: 60px;
+    background-color: $SecondaryBodyBgColor;
+    border-radius: 20px;
+    place-items: center;
+  }
+  &-img {
+    width: 100%;
+    height: 310px;
+    @extend %fcc;
+    img {
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &-form {
+    position: relative;
+    width: 100%;
+    @extend %fcc;
+    margin-top: 40px;
+    input {
+      width: 100%;
+      border-radius: 20px;
+      background: #fff;
+      color: $bodyBgColor;
+      @include font(400, 16px, 1.4);
+      border: none;
+      padding: 19px 223px 19px 20px;
+      &:focus {
+        border: none;
+        outline: none;
+      }
+    }
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 19px 50px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: none;
+      background: $prColor;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.9;
+      }
+      span {
+        display: block;
+        color: #fff;
+        @include font(600, 16px, 1.4);
+      }
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        @extend %fcc;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

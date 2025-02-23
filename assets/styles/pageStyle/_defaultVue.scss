@@ -1,0 +1,161 @@
+.header {
+  padding: 20px 50px;
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      width: 200px;
+      height: 20px;
+      @extend %fcc;
+      flex-shrink: 0;
+      img {
+        @extend %imgContain;
+      }
+    }
+
+    &__right {
+      display: flex;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 100%;
+      margin-left: auto;
+
+      .categorys {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        a {
+          @extend %headerTopCategory;
+          padding: 12px 20px;
+        }
+      }
+
+      .login {
+        button {
+          margin-left: 10px;
+          @extend %button1;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background: $SecondaryBodyBgColor;
+  padding: 40px 0;
+
+  &-top {
+    display: block;
+
+    &-list {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 31px;
+
+      li,
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        width: 100%;
+        li {
+          .logo {
+            width: 243px;
+            height: 32px;
+            @extend %fcc;
+            flex-shrink: 0;
+            img {
+              @extend %imgContain;
+            }
+            margin-bottom: 10px;
+            margin-right: 84px;
+          }
+          p {
+            @extend %desc;
+            max-width: 238px;
+          }
+
+          .social-list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            .social {
+              user-select: none;
+              width: 32px;
+              height: 32px;
+              @extend %fcc;
+              flex-shrink: 0;
+              img {
+                @extend %imgContain;
+              }
+            }
+          }
+
+          h3 {
+            color: #fff;
+            @include font(700, 22px, 1.6);
+            margin-bottom: 5px;
+          }
+          a {
+            color: $desc;
+            @include font(400, 16px, 1.4);
+            &:hover {
+              opacity: 0.8;
+            }
+          }
+          .footer-subs {
+            @extend %fcc;
+            position: relative;
+            width: 420px;
+            input {
+              width: 100%;
+              border-radius: 20px;
+              background: #fff;
+              color: $bodyBgColor;
+              @include font(400, 16px, 1.4);
+              border: none;
+              padding: 19px 191px 19px 20px;
+              &:focus {
+                border: none;
+                outline: none;
+              }
+            }
+            button {
+              position: absolute;
+              top: 0;
+              right: 0;
+              padding: 19px 50px;
+              border-radius: 20px;
+              color: #fff;
+              @include font(600, 16px, 1.4);
+              border: none;
+              background: $prColor;
+              cursor: pointer;
+              &:hover {
+                opacity: 0.9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    p {
+      color: $desc;
+      @include font(400, 12px, 1.1);
+      display: block;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #858584;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+%fcc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%imgContain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+%headerTopCategory {
+  color: #fff;
+  @include font(600, 16px, 1.4);
+}
+%button1 {
+  @extend %fcc;
+  gap: 12px;
+  background: $prColor;
+  border-radius: 20px;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+
+  img,
+  svg {
+    @extend %fcc;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  span {
+    display: inline-block;
+    @extend %headerTopCategory;
+  }
+  &:hover {
+    opacity: 0.9;
+  }
+}
+%button2 {
+  padding: 19px 50px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: transparent;
+  border: 2px solid $prColor;
+  border-radius: 20px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
+  }
+  img,
+  svg {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  span {
+    display: block;
+    color: #fff;
+    @include font(600, 16px, 1.4);
+  }
+}
+%desc {
+  color: $desc;
+  @include font(400, 16px, 1.4);
+}
+%sectionTitle {
+  color: #fff;
+  @include font(600, 38px, 1.2);
+  margin-bottom: 10px;
+}
+%sectionSubtitle {
+  color: #fff;
+  @include font(400, 22px, 1.6);
+}
