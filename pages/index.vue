@@ -173,7 +173,7 @@
         <div class="subWrap">
           <p class="discoverMore-subtitle">Explore new trending NFTs</p>
           <NuxtLink to="/" class="discoverMore-btn">
-            <img src="~/assets/images/icons/eye.svg" alt="icon" />
+            <img src="~/assets/images/icons/Eye.svg" alt="icon" />
             <span>See All</span>
           </NuxtLink>
         </div>
@@ -235,7 +235,7 @@
             <h2 class="magicMashroom-title">Magic Mashrooms</h2>
 
             <NuxtLink to="/" class="magicMashroom-btn">
-              <img src="~/assets/images/icons/eye.svg" alt="icon" />
+              <img src="~/assets/images/icons/Eye.svg" alt="icon" />
               <span>See NFT</span>
             </NuxtLink>
           </div>
