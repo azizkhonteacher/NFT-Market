@@ -42,7 +42,7 @@
         <div class="hero-right">
           <div class="hero-img">
             <img
-              src="~/assets\images\site_images\ImagePlaceholder.png"
+              src="~/assets/images/site_images/ImagePlaceholder.png"
               alt="hero img"
             />
           </div>
@@ -50,7 +50,7 @@
             <h2 class="hero-right-subtitle">Space Walking</h2>
             <div class="user-wrap">
               <img
-                src="~/assets\images\user_avatar_images\Avatar_Placeholder.png"
+                src="~/assets/images/user_avatar_images/Avatar_Placeholder.png"
                 alt="user img"
               />
               <h3>Animakid</h3>
@@ -73,20 +73,20 @@
             <div class="collection-user-images">
               <div class="head-img">
                 <img
-                  src="~/assets\images\collection_images\item1_head.png"
+                  src="~/assets/images/collection_images/item1_head.png"
                   alt="head img"
                 />
               </div>
               <ul class="images">
                 <li>
                   <img
-                    src="~/assets\images\collection_images\item1_1.png"
+                    src="~/assets/images/collection_images/item1_1.png"
                     alt=""
                   />
                 </li>
                 <li>
                   <img
-                    src="~/assets\images\collection_images\item1_2.png"
+                    src="~/assets/images/collection_images/item1_2.png"
                     alt=""
                   />
                 </li>
@@ -97,7 +97,7 @@
               <h2 class="collection-user-name">DSGN Animals</h2>
               <div class="collection-user-avatar">
                 <img
-                  src="~/assets\images\collection_images\item1_user.png"
+                  src="~/assets/images/collection_images/item1_user.png"
                   alt="user avatar"
                 />
                 <span>MrFox</span>
@@ -117,7 +117,7 @@
             Checkout Top Rated Creators on the NFT Marketplace
           </p>
           <NuxtLink to="/" class="topCreators-btn">
-            <img src="~/assets\images\icons\RocketLaunchPr.svg" alt="icon" />
+            <img src="~/assets/images/icons/RocketLaunchPr.svg" alt="icon" />
             <span>View Rankings</span>
           </NuxtLink>
         </div>
@@ -127,7 +127,7 @@
             <span class="count">5</span>
             <div class="avatar">
               <img
-                src="~/assets\images\topCreators_images\avatar1.png"
+                src="~/assets/images/topCreators_images/avatar1.png"
                 alt="avatar images"
               />
             </div>
@@ -149,12 +149,12 @@
           <li class="browseCategories-item" v-for="i in 8" :key="i">
             <div class="browseCategories-item-images">
               <img
-                src="~/assets\images\browseCategories_images\itemBg1.png"
+                src="~/assets/images/browseCategories_images/itemBg1.png"
                 alt=""
                 class="bgImg"
               />
               <img
-                src="assets\images\browseCategories_images\itemSvg1.svg"
+                src="assets/images/browseCategories_images/itemSvg1.svg"
                 alt=""
                 class="svgImg"
               />
@@ -173,7 +173,7 @@
         <div class="subWrap">
           <p class="discoverMore-subtitle">Explore new trending NFTs</p>
           <NuxtLink to="/" class="discoverMore-btn">
-            <img src="~/assets\images\icons\eye.svg" alt="icon" />
+            <img src="~/assets/images/icons/eye.svg" alt="icon" />
             <span>See All</span>
           </NuxtLink>
         </div>
@@ -182,7 +182,7 @@
           <li class="discoverMore-item" v-for="i in 3" :key="i">
             <div class="discoverMore-item-img">
               <img
-                src="~/assets\images\discoverMore_images\item_img_1.png"
+                src="~/assets/images/discoverMore_images/item_img_1.png"
                 alt="images"
               />
             </div>
@@ -194,7 +194,7 @@
                 <!-- avatar img and name -->
                 <div class="avatar-wrap">
                   <img
-                    src="~/assets\images\discoverMore_images\item_avatar_1.png"
+                    src="~/assets/images/discoverMore_images/item_avatar_1.png"
                     alt="avatar img"
                   />
                   <p>MoonDancer</p>
@@ -226,7 +226,7 @@
           <div class="magicMashroom-wrap-left">
             <div class="comment">
               <img
-                src="~/assets\images\magicMashroom_images\Avatar.png"
+                src="~/assets/images/magicMashroom_images/Avatar.png"
                 alt="avatar ima"
               />
               <p>Shroomie</p>
@@ -235,7 +235,7 @@
             <h2 class="magicMashroom-title">Magic Mashrooms</h2>
 
             <NuxtLink to="/" class="magicMashroom-btn">
-              <img src="~/assets\images\icons\eye.svg" alt="icon" />
+              <img src="~/assets/images/icons/eye.svg" alt="icon" />
               <span>See NFT</span>
             </NuxtLink>
           </div>
@@ -284,7 +284,7 @@
           <li class="works-item" v-for="i in 3" :key="i">
             <div class="works-item-img">
               <img
-                src="~/assets\images\works_images\itemIcon1.png"
+                src="~/assets/images/works_images/itemIcon1.png"
                 alt="images"
               />
             </div>
@@ -305,7 +305,7 @@
       <div class="container">
         <div class="weekly-wrap">
           <div class="weekly-img">
-            <img src="~/assets\images\weekly_images\Photo.png" alt="images" />
+            <img src="~/assets/images/weekly_images/Photo.png" alt="images" />
           </div>
           <div class="weekly-info">
             <h2 class="weekly-title">Join our weekly digest</h2>
@@ -315,7 +315,7 @@
             <form class="weekly-form">
               <input type="email" placeholder="Enter your email here">
               <button>
-                <img src="~/assets\images\icons\email.svg" alt="email icon">
+                <img src="~/assets/images/icons/email.svg" alt="email icon">
                 <span>Subscribe</span>
               </button>
             </form>

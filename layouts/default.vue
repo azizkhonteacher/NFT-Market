@@ -4,7 +4,7 @@
       <div class="header-top">
         <div class="logo">
           <NuxtLink to="/">
-            <img src="~/assets/images\logo.svg" alt="logo" />
+            <img src="~/assets/images/logo.svg" alt="logo" />
           </NuxtLink>
         </div>
 
@@ -17,7 +17,7 @@
 
           <div class="login">
             <button>
-              <img src="~/assets\images\icons\User.svg" alt="user icon" />
+              <img src="~/assets/images/icons/User.svg" alt="user icon" />
               <span>Sign Up</span>
             </button>
           </div>
@@ -26,7 +26,7 @@
         <div v-if="false" class="header-top__burger-menu">
           <button>
             <img
-              src="~/assets\images\icons\Burger Menu.svg"
+              src="~/assets/images/icons/Burger Menu.svg"
               alt="burger icon"
             />
           </button>
@@ -47,7 +47,7 @@
                   <!-- logo -->
                   <li>
                     <NuxtLink class="logo" to="/">
-                      <img src="~/assets\images\logo.svg" alt="logo icon" />
+                      <img src="~/assets/images/logo.svg" alt="logo icon" />
                     </NuxtLink>
                   </li>
                   <!-- desc -->
@@ -65,7 +65,7 @@
                       <li class="social">
                         <a href="#"
                           ><img
-                            src="~/assets\images\icons\DiscordLogo.svg"
+                            src="~/assets/images/icons/DiscordLogo.svg"
                             alt="social icon"
                         /></a>
                       </li>
@@ -73,7 +73,7 @@
                       <li class="social">
                         <a href="#"
                           ><img
-                            src="~/assets\images\icons\YoutubeLogo.svg"
+                            src="~/assets/images/icons/YoutubeLogo.svg"
                             alt="social icon"
                         /></a>
                       </li>
@@ -81,7 +81,7 @@
                       <li class="social">
                         <a href="#"
                           ><img
-                            src="~/assets\images\icons\TwitterLogo.svg"
+                            src="~/assets/images/icons/TwitterLogo.svg"
                             alt="social icon"
                         /></a>
                       </li>
@@ -89,7 +89,7 @@
                       <li class="social">
                         <a href="#"
                           ><img
-                            src="~/assets\images\icons\InstagramLogo.svg"
+                            src="~/assets/images/icons/InstagramLogo.svg"
                             alt="social icon"
                         /></a>
                       </li>
